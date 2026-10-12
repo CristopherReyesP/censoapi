@@ -2,7 +2,7 @@
 
 Express/MongoDB REST API for a voter census: role-based user accounts (user/moderator/admin), JWT auth, and CRUD endpoints for voter ("Votante") records.
 
-> Learning project built in February 2024 while practicing Express with ES modules, Mongoose, JWT auth and role-based authorization middleware. Kept public as part of my learning history.
+> Client project. Started in February 2024, when the client of [BackendElectores](https://github.com/CristopherReyesP/BackendElectores) hired me again for a new version of their voter census system. This repository holds an early, incomplete copy of that work.
 
 ## What it does
 
@@ -31,7 +31,7 @@ npm run dev     # nodemon src/index.js
 
 Defaults exist for `MONGODB_URI` (`mongodb://localhost/censo`) and `PORT` (4000) if no `.env` is provided.
 
-## What I practiced
+## Key techniques
 
 - Express REST API structure with routes/controllers/models
 - Mongoose schemas and role-based data modeling
